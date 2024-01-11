@@ -580,7 +580,7 @@ func connectEtcdClient(ctx context.Context, config *client.Config, cfgPath strin
 		}),
 	}
 
-	ec.logger.Info("Check etcd version")
+	ec.logger.Info("landev.Check etcd version")
 
 	ec.logger.Info("Connecting to etcd server...")
 
